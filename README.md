@@ -10,6 +10,10 @@ To run, preferably on ```python 3.10```
 
 3. Install requirements : ```pip install -r requirements.txt```
 
-4. Convert the file into vectors : ```python build_rag.py <file_path>.pdf```
+4. Convert the file into vectors :
+    ```
+    cd src 
+    python build_rag.py <file_path>.pdf
+    ```
 
 5. Run the RAG model : ```python rag.py```
